@@ -13,7 +13,7 @@ target/
 .springBeans
 .sts4-cache
 bin/
-
+.idea/
 ### IntelliJ IDEA ###
 .idea
 *.iws

@@ -1,10 +1,21 @@
-Tesouraria
-Ciclo Financeiro
-    + Começa com as saidas de caixa par pagamento de fornecedores
-    + Termina com a entrada de caixa proveniente das vendas
-Cabe à administração financeira definir as estratégias gerais e executar as atividades que otimizem o uso de recursos e melhorem seus resultados, gerando riqueza para os proprietários do capital.
-Disponibilidade da empresa:
+Tesouraria (Ciclo Financeiro ou de caixa)
+
+
+
+
+
+
+
+
+
+ + Começa com as saidas de caixa par pagamento de fornecedores
+ + Termina com a entrada de caixa proveniente das vendas 
+
+ + Cabe à administração financeira definir as estratégias gerais e executar as atividades que otimizem o uso de recursos e melhorem seus resultados, gerando riqueza para os proprietários do capital.
+    Disponibilidade da empresa:
+
     + Saldo de caixa
+
     + Fluxo de caixa
 
         O fluxo de caixa é a espinha dorsal da empresa. Sem ele, não se saberá quando haverá recursos suficientes para sustentar as operações, ou quando haverá necessidade de financiamentos bancários
@@ -40,6 +51,7 @@ Disponibilidade da empresa:
     + Pagamentos
     + Capital de Giro
     + Liquidez
+
 NÃO DEVE FAZER:
     + Compras
     + vendas

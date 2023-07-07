@@ -8,9 +8,11 @@ import java.util.Map;
 import java.util.Properties;
 
 public class Offer {
+
     public Merchandise merchandise;
     public String name;
     public String descr;
     public Map<String,String> attributes;
     public Properties properties;
+
 }

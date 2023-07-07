@@ -1,4 +1,4 @@
-package com.voyager.enterprise.manager.people.entity;
+package com.voyager.enterprise.people.entity;
 
 import java.util.Properties;
 import java.util.UUID;

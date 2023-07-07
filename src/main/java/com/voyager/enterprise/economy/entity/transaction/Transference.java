@@ -1,8 +1,8 @@
 package com.voyager.enterprise.economy.entity.transaction;
 
 import com.voyager.enterprise.economy.entity.Merchandise;
-import com.voyager.enterprise.economy.entity.transaction.transference.StatusTransference;
-import com.voyager.enterprise.economy.entity.transaction.transference.enums.TransferenceEnum;
+import com.voyager.enterprise.economy.entity.transaction.transference.TransferenceStatus;
+import com.voyager.enterprise.economy.entity.transaction.transference.enums.TransferenceStatusEnum;
 import com.voyager.enterprise.entity.Person;
 
 import java.math.BigDecimal;
@@ -14,8 +14,8 @@ public class Transference {
     public String desc;
     public Merchandise merchandise;
     public BigDecimal amount;
-    public TransferenceEnum status;
-    public List<StatusTransference> listStatus;
+    public TransferenceStatusEnum status;
+    public List<TransferenceStatus> listStatus;
     public Person sender;
     public Person receiver;
 }

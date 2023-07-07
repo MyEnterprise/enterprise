@@ -1,17 +1,30 @@
-Contabilidade
-Ciclo Economico
-    + Começa com a compra de mercadorias
-    + estocagem no meio delas
-    + Finaliza com a venda delas
-Viabilidade do negocio:
+Contabilidade (Ciclo Economico)
+
+
+
+
+
+
+
+
+
+
+
++ Começa com a compra de mercadorias
++ Estocagem no meio delas
++ Finaliza com a venda delas
+
++ Viabilidade do negocio:
     + Precos
     + Vendas
     + Custos
     + Margens
     + resultados
+
 Planos de contas
+
 1) regulares: mais constantes e podem ser previsíveis.
-   Ex.: pagamento de salários e fornecedores, despesas administrativas e de vendas;
+    Ex.: pagamento de salários e fornecedores, despesas administrativas e de vendas;
 2) periódicos: pagamentos de despesas em intervalos maiores. Ex.: pagamentos de juros, dividendos aos acionistas, amortização de financiamentos;
 3) irregulares: aquisição de itens de ativo imobilizado e outras despesas não esperadas pela empresa.
 

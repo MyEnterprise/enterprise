@@ -1,4 +1,4 @@
-package com.voyager.enterprise.manager.people.entity;
+package com.voyager.enterprise.people.entity;
 
 import com.voyager.enterprise.manager.entity.Resource;
 
