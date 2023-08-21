@@ -1,4 +1,3 @@
 package com.voyager.enterprise.event;
-
-public @interface UpdateIncorporation {
-}
+@EventHandler(eventName = "com.voyager.enterprise.event.UpdateIncorporation")
+public @interface UpdateIncorporation {}

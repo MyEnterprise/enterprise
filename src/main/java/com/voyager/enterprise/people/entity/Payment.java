@@ -1,6 +1,6 @@
 package com.voyager.enterprise.people.entity;
 
-import com.voyager.enterprise.gateway.payment.entity.PaymentIdentificationEntity;
+import com.voyager.enterprise.plugin.payment.entity.PaymentIdentificationEntity;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

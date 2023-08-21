@@ -14,4 +14,20 @@ public class Lending extends Transaction{
     // taxas de processamento, taxas de manutenção de conta e outros encargos
     public List<Fee> listFee;
     public List<Interest> listInterest;
+
+    public List<Fee> getListFee() {
+        return listFee;
+    }
+
+    public void setListFee(List<Fee> listFee) {
+        this.listFee = listFee;
+    }
+
+    public List<Interest> getListInterest() {
+        return listInterest;
+    }
+
+    public void setListInterest(List<Interest> listInterest) {
+        this.listInterest = listInterest;
+    }
 }

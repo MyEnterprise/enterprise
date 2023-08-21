@@ -10,4 +10,20 @@ import java.util.List;
 public class Seller extends Person {
     SellerEnum type;
     List<Sale> sales;
+
+    public SellerEnum getType() {
+        return type;
+    }
+
+    public void setType(SellerEnum type) {
+        this.type = type;
+    }
+
+    public List<Sale> getSales() {
+        return sales;
+    }
+
+    public void setSales(List<Sale> sales) {
+        this.sales = sales;
+    }
 }

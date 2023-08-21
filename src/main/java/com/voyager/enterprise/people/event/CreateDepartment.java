@@ -1,4 +1,6 @@
 package com.voyager.enterprise.people.event;
 
-public @interface CreateDepartment {
-}
+import com.voyager.enterprise.event.EventHandler;
+
+@EventHandler(eventName = "com.voyager.enterprise.people.event.CreateDepartment")
+public @interface CreateDepartment {}

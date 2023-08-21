@@ -1,4 +1,6 @@
 package com.voyager.enterprise.people.event;
 
-public @interface UpdatePayment {
-}
+import com.voyager.enterprise.event.EventHandler;
+
+@EventHandler(eventName = "com.voyager.enterprise.people.event.UpdatePayment")
+public @interface UpdatePayment {}

@@ -5,7 +5,5 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.METHOD)
-public @interface CreateEnterprise {
-}
+@EventHandler(eventName = "com.voyager.enterprise.event.CreateEnterprise")
+public @interface CreateEnterprise {}

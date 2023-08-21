@@ -1,4 +1,6 @@
 package com.voyager.enterprise.commercial.event;
 
-public @interface CreatePurchase {
-}
+import com.voyager.enterprise.event.EventHandler;
+
+@EventHandler(eventName = "com.voyager.enterprise.commercial.event.CreatePurchase")
+public @interface CreatePurchase {}

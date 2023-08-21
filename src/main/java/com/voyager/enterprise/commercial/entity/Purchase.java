@@ -9,4 +9,11 @@ import java.util.List;
 public class Purchase extends Order{
     public BigDecimal maxPrice;
 
+    public BigDecimal getMaxPrice() {
+        return maxPrice;
+    }
+
+    public void setMaxPrice(BigDecimal maxPrice) {
+        this.maxPrice = maxPrice;
+    }
 }

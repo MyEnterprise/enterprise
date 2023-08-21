@@ -1,4 +1,6 @@
 package com.voyager.enterprise.commercial.event;
 
-public @interface UpdateSeller {
-}
+import com.voyager.enterprise.event.EventHandler;
+
+@EventHandler(eventName = "com.voyager.enterprise.commercial.event.UpdateSeller")
+public @interface UpdateSeller {}

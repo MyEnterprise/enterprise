@@ -12,4 +12,35 @@ public class Order {
     WareHouse deposit;
     private List<Transaction> transaction;
 
+    public Offer getOffer() {
+        return offer;
+    }
+
+    public void setOffer(Offer offer) {
+        this.offer = offer;
+    }
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
+
+    public void setAmount(BigDecimal amount) {
+        this.amount = amount;
+    }
+
+    public WareHouse getDeposit() {
+        return deposit;
+    }
+
+    public void setDeposit(WareHouse deposit) {
+        this.deposit = deposit;
+    }
+
+    public List<Transaction> getTransaction() {
+        return transaction;
+    }
+
+    public void setTransaction(List<Transaction> transaction) {
+        this.transaction = transaction;
+    }
 }

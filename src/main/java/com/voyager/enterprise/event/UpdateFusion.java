@@ -1,4 +1,3 @@
 package com.voyager.enterprise.event;
-
-public @interface UpdateFusion {
-}
+@EventHandler(eventName = "com.voyager.enterprise.event.UpdateFusion")
+public @interface UpdateFusion {}

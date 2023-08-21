@@ -2,6 +2,9 @@
 
 Cuida dos vendedores, suas ordens de venda e dos compradores e suas ordens de compra.
 
++ adicionar pedidos
++ meio de campo com marketplace
++ Receber pedidos de compra
 
 ### Eventos e Estados:
    + Vendedor
