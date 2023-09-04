@@ -2,8 +2,10 @@ package com.voyager.enterprise.logistics.entity.storage.enums;
 
 public enum DepositEnum {
     SIMPLE,
-    // protegido
-    // refrigerado
-    // contener
-
+    PALLET_TRUCK,
+    SHELVING,
+    REFRIGERATED,
+    SILO,
+    TANK,
+    CONTAINER
 }

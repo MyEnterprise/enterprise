@@ -1,25 +1,23 @@
-package com.voyager.enterprise.logistics.entity.storage.inventory.bound;
+package com.voyager.enterprise.logistics.entity.distribution.expedition;
 
-
-import com.voyager.enterprise.logistics.entity.storage.inventory.bound.enums.BoundStatusEnum;
+import com.voyager.enterprise.logistics.entity.distribution.expedition.enums.ExpeditionStatusEnum;
 
 import java.time.LocalDate;
 import java.util.Map;
-import java.util.Properties;
 import java.util.UUID;
 
-public class BoundStatus {
+public class ExpeditionStatus {
     public UUID id;
-    public BoundStatusEnum status;
+    public ExpeditionStatusEnum status;
     public String desc;
     public LocalDate dt;
     public Map<String,String> attributes;
 
-    public BoundStatusEnum getStatus() {
+    public ExpeditionStatusEnum getStatus() {
         return status;
     }
 
-    public void setStatus(BoundStatusEnum status) {
+    public void setStatus(ExpeditionStatusEnum status) {
         this.status = status;
     }
 

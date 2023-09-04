@@ -3,11 +3,13 @@ package com.voyager.enterprise.logistics.entity.storage;
 import com.voyager.enterprise.logistics.entity.storage.enums.DepositEnum;
 import com.voyager.enterprise.util.Code;
 
-public class Deposit {
-    public Code<String> code;
+import java.util.List;
 
+public class Deposit {
+
+    public Code<String> code;
     public Inventory inventory;
-    public DepositEnum type;
+    public List<DepositEnum> type;
 
     public Code<String> getCode() {
         return code;
@@ -25,11 +27,11 @@ public class Deposit {
         this.inventory = inventory;
     }
 
-    public DepositEnum getType() {
+    public List<DepositEnum> getType() {
         return type;
     }
 
-    public void setType(DepositEnum type) {
+    public void setType(List<DepositEnum> type) {
         this.type = type;
     }
 }

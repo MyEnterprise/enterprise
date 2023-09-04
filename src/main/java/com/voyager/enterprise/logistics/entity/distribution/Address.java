@@ -9,7 +9,7 @@ public class Address {
     public String stateOrProvince;
     public String city;
     public String districtOrBurgh;
-    public String logradouro;
+    public String street;
     public String number;
 
     public UUID getId() {
@@ -60,12 +60,12 @@ public class Address {
         this.districtOrBurgh = districtOrBurgh;
     }
 
-    public String getLogradouro() {
-        return logradouro;
+    public String getStreet() {
+        return street;
     }
 
-    public void setLogradouro(String logradouro) {
-        this.logradouro = logradouro;
+    public void setStreet(String street) {
+        this.street = street;
     }
 
     public String getNumber() {

@@ -5,8 +5,10 @@ import com.voyager.enterprise.util.Code;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.UUID;
 
-public class Shipments {
+public class Shipment {
+    public UUID id;
     public Code<String> code;
     public Product merchandise;
     public LocalDate dtValid;
@@ -42,5 +44,13 @@ public class Shipments {
 
     public void setAmmount(BigDecimal ammount) {
         this.ammount = ammount;
+    }
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
     }
 }

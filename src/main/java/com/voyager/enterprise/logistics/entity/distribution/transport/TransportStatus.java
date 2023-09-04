@@ -1,25 +1,23 @@
-package com.voyager.enterprise.logistics.entity.storage.inventory.bound;
+package com.voyager.enterprise.logistics.entity.distribution.transport;
 
-
-import com.voyager.enterprise.logistics.entity.storage.inventory.bound.enums.BoundStatusEnum;
+import com.voyager.enterprise.logistics.entity.distribution.transport.enums.TransportStatusEnum;
 
 import java.time.LocalDate;
 import java.util.Map;
-import java.util.Properties;
 import java.util.UUID;
 
-public class BoundStatus {
+public class TransportStatus {
     public UUID id;
-    public BoundStatusEnum status;
+    public TransportStatusEnum status;
     public String desc;
     public LocalDate dt;
     public Map<String,String> attributes;
 
-    public BoundStatusEnum getStatus() {
+    public TransportStatusEnum getStatus() {
         return status;
     }
 
-    public void setStatus(BoundStatusEnum status) {
+    public void setStatus(TransportStatusEnum status) {
         this.status = status;
     }
 
@@ -55,3 +53,4 @@ public class BoundStatus {
         this.id = id;
     }
 }
+
