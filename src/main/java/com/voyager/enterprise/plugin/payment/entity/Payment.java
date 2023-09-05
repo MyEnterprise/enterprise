@@ -1,4 +1,5 @@
 package com.voyager.enterprise.plugin.payment.entity;
 
-public class Payment {
-}
+import com.voyager.enterprise.economy.entity.transaction.Transference;
+
+public class Payment extends Transference{}

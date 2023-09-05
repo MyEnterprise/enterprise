@@ -1,9 +1,7 @@
-package com.voyager.enterprise.manager.entity;
+package com.voyager.enterprise.financial.entity;
 
 import com.voyager.enterprise.economy.entity.enums.PriceEnum;
-import com.voyager.enterprise.manager.entity.resource.Cost;
-
-import java.math.BigDecimal;
+import com.voyager.enterprise.financial.entity.resources.Cost;
 
 public class Resource {
     public Cost cost;

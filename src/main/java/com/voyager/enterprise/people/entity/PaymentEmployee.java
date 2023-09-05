@@ -1,5 +1,7 @@
 package com.voyager.enterprise.people.entity;
 
+import com.voyager.enterprise.economy.entity.Transaction;
+import com.voyager.enterprise.economy.entity.transaction.Transference;
 import com.voyager.enterprise.plugin.payment.entity.PaymentIdentificationEntity;
 
 import java.math.BigDecimal;
@@ -7,12 +9,7 @@ import java.time.LocalDate;
 import java.util.Properties;
 import java.util.UUID;
 
-public class Payment {
-
-    public UUID id;
+public class PaymentEmployee extends Transaction {
     public PaymentIdentificationEntity paymentIdentification;
-    public LocalDate dt;
-    public String cod;
-    public Properties properties;
-    public BigDecimal value;
+
 }

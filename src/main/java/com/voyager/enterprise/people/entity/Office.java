@@ -1,6 +1,6 @@
 package com.voyager.enterprise.people.entity;
 
-import com.voyager.enterprise.manager.entity.Resource;
+import com.voyager.enterprise.financial.entity.Resource;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -16,5 +16,5 @@ public class Office{
     public Properties properties;
     public String dtStart;
     public String dtEnd;
-    public List<Payment> listPayment;
+    public List<PaymentEmployee> listPayment;
 }

@@ -1,12 +1,15 @@
 package com.voyager.enterprise.operation.entity.jobs;
 
+import com.voyager.enterprise.operation.entity.jobs.tasks.TaskStatus;
 import com.voyager.enterprise.people.entity.Employee;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public class Task {
     String desc;
     Employee responsible;
+    List<TaskStatus> listStatus;
     LocalDate start;
     LocalDate end;
 

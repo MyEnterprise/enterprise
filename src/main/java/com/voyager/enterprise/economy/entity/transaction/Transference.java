@@ -1,7 +1,7 @@
 package com.voyager.enterprise.economy.entity.transaction;
 
-import com.voyager.enterprise.economy.entity.Merchandise;
 import com.voyager.enterprise.economy.entity.transaction.transference.TransferenceStatus;
+import com.voyager.enterprise.economy.entity.Merchandise;
 import com.voyager.enterprise.economy.entity.transaction.transference.enums.TransferenceStatusEnum;
 import com.voyager.enterprise.entity.Person;
 
@@ -18,7 +18,6 @@ public class Transference {
     public List<TransferenceStatus> listStatus;
     public Person sender;
     public Person receiver;
-
 
     public UUID getId() {
         return id;

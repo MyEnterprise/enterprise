@@ -7,7 +7,6 @@ import com.voyager.enterprise.economy.entity.transaction.Transference;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
-import java.util.Properties;
 import java.util.UUID;
 
 public class Transaction {

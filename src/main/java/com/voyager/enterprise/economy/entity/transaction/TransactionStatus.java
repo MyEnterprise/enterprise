@@ -4,7 +4,6 @@ import com.voyager.enterprise.economy.entity.enums.TransactionStatusEnum;
 
 import java.time.LocalDate;
 import java.util.Map;
-import java.util.Properties;
 
 public class TransactionStatus {
     public TransactionStatusEnum status;

@@ -1,16 +1,6 @@
 Tesouraria (Ciclo Financeiro ou de caixa)
-
-
-
-
-
-
-
-
-
- + Começa com as saidas de caixa par pagamento de fornecedores
- + Termina com a entrada de caixa proveniente das vendas 
-
+ + Começa com as saidas de caixa para pagamento de fornecedores
+ + Termina com a entrada de caixa proveniente das vendas
  + Cabe à administração financeira definir as estratégias gerais e executar as atividades que otimizem o uso de recursos e melhorem seus resultados, gerando riqueza para os proprietários do capital.
     Disponibilidade da empresa:
 
@@ -39,7 +29,9 @@ Tesouraria (Ciclo Financeiro ou de caixa)
             2) periódicos: pagamentos de despesas em intervalos maiores. Ex.: pagamentos de juros, dividendos aos acionistas, amortização de financiamentos;
             3) irregulares: aquisição de itens de ativo imobilizado e outras despesas não esperadas pela empresa.
         REAL:
-            Ao registrar os seus efetivos recebimentos e os seus verdadeiros pagamentos, a empresa está elaborando o fluxo de caixa realizado (real). Por meio da conciliação bancária, serão apontadas todas as movimentações realizadas nas contas da empresa.
+            Ao registrar os seus efetivos recebimentos e os seus verdadeiros pagamentos, 
+            a empresa está elaborando o fluxo de caixa realizado (real).
+            Por meio da conciliação bancária, serão apontadas todas as movimentações realizadas nas contas da empresa.
     + Aplicações
     + Contas a receber
     + Contas a Pagar

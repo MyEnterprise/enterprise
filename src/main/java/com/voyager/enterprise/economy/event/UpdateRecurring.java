@@ -2,6 +2,6 @@ package com.voyager.enterprise.economy.event;
 
 import com.voyager.enterprise.event.EventHandler;
 
-@EventHandler(eventName = "com.voyager.enterprise.economy.event.UpdateFee")
+@EventHandler(eventName = "com.voyager.enterprise.financial.entity.economy.event.UpdateFee")
 public @interface UpdateRecurring {
 }

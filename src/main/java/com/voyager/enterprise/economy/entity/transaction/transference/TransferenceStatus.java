@@ -4,7 +4,6 @@ import com.voyager.enterprise.economy.entity.transaction.transference.enums.Tran
 
 import java.time.LocalDate;
 import java.util.Map;
-import java.util.Properties;
 
 public class TransferenceStatus {
     public TransferenceStatusEnum status;

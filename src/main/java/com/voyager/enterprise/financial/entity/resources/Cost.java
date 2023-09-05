@@ -1,6 +1,5 @@
-package com.voyager.enterprise.manager.entity.resource;
+package com.voyager.enterprise.financial.entity.resources;
 
-import com.voyager.enterprise.economy.entity.Merchandise;
 import com.voyager.enterprise.economy.entity.merchandise.Coin;
 
 import java.math.BigDecimal;
