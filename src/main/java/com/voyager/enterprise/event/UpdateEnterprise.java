@@ -6,4 +6,5 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @EventHandler(eventName = "com.voyager.enterprise.event.UpdateEnterprise")
+@Retention(RetentionPolicy.RUNTIME)
 public @interface UpdateEnterprise {}
