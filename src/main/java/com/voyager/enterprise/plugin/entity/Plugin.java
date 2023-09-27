@@ -1,5 +1,10 @@
 package com.voyager.enterprise.plugin.entity;
 
+import java.util.List;
+import java.util.Map.Entry;
+import java.util.Optional;
+
+
 public interface Plugin {
     public void initialize(PluginManager manager);
     public void pause();
@@ -10,5 +15,4 @@ public interface Plugin {
     public void onCommand();
     public boolean isInitialized();
     public void getName();
-
 }

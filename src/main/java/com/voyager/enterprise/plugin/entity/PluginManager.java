@@ -21,5 +21,6 @@ public interface PluginManager {
     public void getDB();
     public Optional<Plugin> findPluginByName(String name);
     public Optional<Plugin> findPluginByPackage(String name);
+    public Optional<Class<?>> findPluginDependency(String name);
     public Emitter emit();
 }
