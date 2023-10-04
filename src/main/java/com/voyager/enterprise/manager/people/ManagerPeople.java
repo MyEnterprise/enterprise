@@ -1,3 +1,7 @@
 package com.voyager.enterprise.manager.people;
 
-public interface ManagerPeople {}
+import com.voyager.enterprise.usercase.CaseGeneric;
+
+public interface ManagerPeople {
+	public <T> CaseGeneric<T> useCase(T usecase);
+}

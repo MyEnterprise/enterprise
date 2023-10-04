@@ -1,3 +1,7 @@
 package com.voyager.enterprise.manager.comercial;
 
-public interface ManagerCommercial {}
+import com.voyager.enterprise.usercase.CaseGeneric;
+
+public interface ManagerCommercial {
+	public <T> CaseGeneric<T> useCase(T usecase);
+}

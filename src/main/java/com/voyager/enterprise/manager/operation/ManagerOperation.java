@@ -1,3 +1,7 @@
 package com.voyager.enterprise.manager.operation;
 
-public interface ManagerOperation {}
+import com.voyager.enterprise.usercase.CaseGeneric;
+
+public interface ManagerOperation {
+	public <T> CaseGeneric<T> useCase(T usecase);
+}

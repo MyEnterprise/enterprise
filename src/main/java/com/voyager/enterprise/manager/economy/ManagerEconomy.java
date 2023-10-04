@@ -1,3 +1,7 @@
 package com.voyager.enterprise.manager.economy;
 
-public interface ManagerEconomy {}
+import com.voyager.enterprise.usercase.CaseGeneric;
+
+public interface ManagerEconomy {
+	public <T> CaseGeneric<T> useCase(T usecase);
+}
