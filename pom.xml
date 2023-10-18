@@ -6,7 +6,7 @@
 
     <groupId>com.voyager</groupId>
     <artifactId>enterprise</artifactId>
-    <version>1.0.4-ALPHA</version>
+    <version>1.0.3-ALPHA</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
