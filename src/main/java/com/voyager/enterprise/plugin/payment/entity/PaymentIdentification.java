@@ -2,7 +2,7 @@ package com.voyager.enterprise.plugin.payment.entity;
 
 import java.util.UUID;
 
-public class PaymentIdentificationEntity {
+public class PaymentIdentification {
 
     public UUID id;
     private String identification;
