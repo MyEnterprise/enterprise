@@ -2,7 +2,7 @@ package com.voyager.enterprise.plugin.tax.entity;
 
 import java.util.UUID;
 
-public class TaxIdentificationEntity {
+public class TaxIdentification {
 
     public UUID id;
     public Tax tax;

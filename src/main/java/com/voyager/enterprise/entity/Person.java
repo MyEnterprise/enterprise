@@ -2,7 +2,7 @@ package com.voyager.enterprise.entity;
 
 import com.voyager.enterprise.logistics.entity.distribution.Address;
 import com.voyager.enterprise.entity.person.Contact;
-import com.voyager.enterprise.plugin.tax.entity.TaxIdentificationEntity;
+import com.voyager.enterprise.plugin.tax.entity.TaxIdentification;
 
 import java.util.List;
 import java.util.UUID;
@@ -10,7 +10,7 @@ import java.util.UUID;
 public class Person {
     public UUID id;
     public String name;
-    public TaxIdentificationEntity identification;
+    public TaxIdentification identification;
     public List<Address> listAddress;
     public List<Contact> listContact;
 
@@ -30,11 +30,11 @@ public class Person {
         this.name = name;
     }
 
-    public TaxIdentificationEntity getIdentification() {
+    public TaxIdentification getIdentification() {
         return identification;
     }
 
-    public void setIdentification(TaxIdentificationEntity identification) {
+    public void setIdentification(TaxIdentification identification) {
         this.identification = identification;
     }
 
