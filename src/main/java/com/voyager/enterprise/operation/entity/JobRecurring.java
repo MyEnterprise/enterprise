@@ -1,15 +1,58 @@
 package com.voyager.enterprise.operation.entity;
 
+import java.util.Map;
+import java.util.UUID;
+
 import com.voyager.enterprise.operation.entity.jobs.enums.JobRecurringEnum;
+import com.voyager.enterprise.util.Code;
 
 public class JobRecurring extends Job{
-    JobRecurringEnum type;
 
-    public JobRecurringEnum getType() {
-        return type;
-    }
+	private UUID id;
+    private Code<String> code;
+    private Map<String,String> attributes;
+    private String desc;
 
-    public void setType(JobRecurringEnum type) {
-        this.type = type;
-    }
+    private JobRecurringEnum type;
+
+	public UUID getId() {
+		return id;
+	}
+
+	public void setId(UUID id) {
+		this.id = id;
+	}
+
+	public Code<String> getCode() {
+		return code;
+	}
+
+	public void setCode(Code<String> code) {
+		this.code = code;
+	}
+
+	public Map<String, String> getAttributes() {
+		return attributes;
+	}
+
+	public void setAttributes(Map<String, String> attributes) {
+		this.attributes = attributes;
+	}
+
+	public String getDesc() {
+		return desc;
+	}
+
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
+
+	public JobRecurringEnum getType() {
+		return type;
+	}
+
+	public void setType(JobRecurringEnum type) {
+		this.type = type;
+	}
+
 }
